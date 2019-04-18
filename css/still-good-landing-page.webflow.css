@@ -1,7 +1,7 @@
 body {
   background-color: #1c1c1c;
   font-family: Roboto, sans-serif;
-  color: #333;
+  color: #f2f2f2;
   font-size: 14px;
   line-height: 200%;
 }
@@ -27,5 +27,39 @@ body {
   -webkit-align-items: center;
   -ms-flex-align: center;
   align-items: center;
+  text-align: center;
+}
+
+.c-landing__form {
+  width: 100%;
+  max-width: 400px;
+  margin-top: 3rem;
+}
+
+.c-landing__form-input {
+  border-radius: 10px;
+}
+
+.c-landing__form-input.is--textarea {
+  height: 100px;
+}
+
+.c-landing__form-submit {
+  width: 100%;
+  border-style: solid;
+  border-width: 2px;
+  border-color: hsla(342.1978021978022, 0.00%, 100.00%, 1.00);
+  border-radius: 20px;
+  background-color: transparent;
+}
+
+.c-landing__form-success {
+  border-radius: 10px;
+  background-color: #878787;
+}
+
+.c-landing__form-error {
+  border-radius: 10px;
+  background-color: #b92727;
 }
 
